@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Hybrid post-quantum key exchange in production TLS 1.3: measurement code and data"
+type: dataset
+authors:
+  - family-names: Sarjeant
+    given-names: Judith Ann
+    orcid: "https://orcid.org/0009-0004-5012-9694"
+    affiliation: "Golden Gate University"
+version: "1.0.0"
+date-released: "2026-11-23"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - post-quantum cryptography
+  - ML-KEM
+  - TLS 1.3
+  - hybrid key exchange
+  - X25519MLKEM768
+  - measurement
+abstract: >-
+  Notebook and data for a reproducible client-side measurement of hybrid
+  X25519MLKEM768 versus classical X25519 key exchange in TLS 1.3 against three
+  public endpoints, using OpenSSL 3.5.4 from a qBraid cloud vantage: seven
+  sessions and 1,260 handshakes (October and November 2026), with ClientHello
+  and ServerHello captures and paired analysis outputs.

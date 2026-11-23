@@ -1,0 +1,7 @@
+host,group,client_hello,server_hello,hello_retry,written,read
+cloudflare.com,X25519,235,122,False,320,2877
+cloudflare.com,X25519MLKEM768,1411,1210,False,1496,3965
+www.google.com,X25519,235,122,False,320,2778
+www.google.com,X25519MLKEM768,1411,1210,False,1496,3866
+pq.cloudflareresearch.com,X25519,246,122,False,331,2828
+pq.cloudflareresearch.com,X25519MLKEM768,1422,1210,False,1507,3916
