@@ -1,5 +1,7 @@
 # Hybrid post-quantum key exchange in production TLS 1.3
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24456092.svg)](https://doi.org/10.5281/zenodo.24456092)
+
 Code and data for the manuscript *Hybrid Post-Quantum Key Exchange in Production TLS 1.3: A Reproducible Measurement of Overhead and Its Implications for Migration* (Judith Ann Sarjeant, submitted to the ITU Journal on Future and Evolving Technologies, special issue on quantum-safe communication, 2026).
 
 The study compares classical **X25519** with hybrid **X25519MLKEM768** (X25519 + ML-KEM-768, FIPS 203; RFC 10024) in real TLS 1.3 handshakes against three public endpoints: cloudflare.com, pq.cloudflareresearch.com and www.google.com. All measurements were made with stock OpenSSL 3.5.4 from one cloud vantage (qBraid Lab, served by Cloudflare's IAD data centre in Ashburn, Virginia).
@@ -19,6 +21,7 @@ The study compares classical **X25519** with hybrid **X25519MLKEM768** (X25519 +
 | `hello_sizes.csv` | ClientHello and ServerHello lengths per endpoint and group (21 November 2026) |
 | `hello_sizes_raw.txt` | Full `openssl s_client -msg` output behind `hello_sizes.csv` |
 | `analysis_outputs/` | Outputs of notebook section 6: `paired_summary.csv`, `per_session_summary.csv`, `fig_paired.png` |
+| `.zenodo.json` | Metadata Zenodo uses when archiving each release |
 | `docs/index.html` | Results dashboard, published with GitHub Pages. Self-contained: the summary data it shows are embedded in the page |
 
 ## Sessions
@@ -79,7 +82,11 @@ Sections 1–5 need a Linux environment with outbound HTTPS. Section 1 installs 
 
 ## Citation
 
-Please cite the archived release using the DOI shown on its Zenodo record, or see `CITATION.cff`.
+Please cite the archived release:
+
+> Sarjeant, J. A. (2026). *Hybrid post-quantum key exchange in production TLS 1.3: measurement code and data* (version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24456092
+
+GitHub's "Cite this repository" button (from `CITATION.cff`) gives the same reference in other formats.
 
 ## Author
 
