@@ -1,0 +1,22 @@
+{
+  "title": "Hybrid post-quantum key exchange in production TLS 1.3: measurement code and data",
+  "upload_type": "dataset",
+  "description": "<p>Data and code accompanying the manuscript <i>Hybrid Post-Quantum Key Exchange in Production TLS 1.3: A Reproducible Measurement of Overhead and Its Implications for Migration</i> (submitted to the ITU Journal on Future and Evolving Technologies, 2026).</p><p>1,260 TLS 1.3 handshakes in seven sessions (October and November 2026) comparing classical X25519 with hybrid X25519MLKEM768 against three public endpoints, using OpenSSL 3.5.4 from a qBraid cloud vantage; ClientHello and ServerHello captures; the measurement and analysis notebook; and paired analysis outputs. Results dashboard: https://sarjeant.github.io/pqc-hybrid-tls-handshakes/</p><p>Data are licensed CC BY 4.0. The notebook code is licensed MIT (see LICENSE in the archive).</p>",
+  "creators": [
+    {
+      "name": "Sarjeant, Judith Ann",
+      "affiliation": "Golden Gate University",
+      "orcid": "0009-0004-5012-9694"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "post-quantum cryptography",
+    "ML-KEM",
+    "TLS 1.3",
+    "hybrid key exchange",
+    "X25519MLKEM768",
+    "measurement"
+  ],
+  "version": "1.0.1"
+}
