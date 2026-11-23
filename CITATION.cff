@@ -7,12 +7,10 @@ authors:
     given-names: Judith Ann
     orcid: "https://orcid.org/0009-0004-5012-9694"
     affiliation: "Golden Gate University"
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-11-23"
-license:
-  - MIT
-  - CC-BY-4.0
-keywords:
+license: CC-BY4.0
+  - keywords:
   - post-quantum cryptography
   - ML-KEM
   - TLS 1.3
